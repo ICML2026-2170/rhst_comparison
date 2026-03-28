@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Per base plots</title>
+    <style>
+        .galeria {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+            flex-direction: column;
+        }
+        figure {
+            text-align: center;
+            margin: 0;
+            max-width: 1000px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="galeria">
+        <figure>
+            <img src="avg_rhst/rhst_ecoli_avg_ratio_vs_mis_radius.png" alt="Ecoli dataset">
+            <figcaption>Ratio of each method's average cost ratio to msi on the Ecoli dataset.</figcaption>
+        </figure>
+
+        <figure>
+            <img src="avg_rhst/rhst_land_mines_avg_ratio_vs_mis_radius.png" alt="LandMines dataset">
+            <figcaption>Ratio of each method's average cost ratio to msi on the LandMines dataset.</figcaption>
+        </figure>
+
+        <figure>
+            <img src="avg_rhst/rhst_ukm_avg_ratio_vs_mis_radius.png" alt="UKM dataset">
+            <figcaption>Ratio of each method's average cost ratio to msi on the UKM dataset.</figcaption>
+        </figure>
+
+        <figure>
+            <img src="avg_rhst/rhst_wholesale_avg_ratio_vs_mis_radius.png" alt="WholeSale dataset">
+            <figcaption>Ratio of each method's average cost ratio to msi on the WholeSale dataset.</figcaption>
+        </figure>
+
+        <figure>
+            <img src="avg_rhst/rhst_wine_avg_ratio_vs_mis_radius.png" alt="Wine dataset">
+            <figcaption>Ratio of each method's average cost ratio to msi on the Wine dataset.</figcaption>
+        </figure>
+    </div>
+
+</body>
+</html>
